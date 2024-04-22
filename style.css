@@ -1,0 +1,62 @@
+/* form background */
+.background{
+   
+    padding: 20px;
+    height: 540px;
+    box-shadow: 2px 2px 12px rgb(209, 206, 206);
+}
+/* form border and form size */
+.formBorder{
+    width: 550px;
+    padding:60px 20px;
+ border: 2px solid #fa9c2b;;
+}
+.message{
+    height: 150px;
+}
+.formBorder button{
+    background-color: #fa9c2b;
+    color: white;
+    border: none;
+    border-top-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+}
+
+
+@media screen and (max-width: 1140px) {
+    .form-flex {
+        flex-direction: column;
+    }
+    .form-flex img{
+        padding-top: 30px;
+    }
+    .background{
+   
+        padding: 20px;
+        height: 640px;
+        box-shadow: 2px 2px 12px rgb(209, 206, 206);
+    }
+    .formBorder{
+        width: 370px;
+        padding:60px 20px;
+     border: 2px solid #fa9c2b;;
+    }
+    .builder{
+        flex-direction: column;
+        align-items: center;
+       gap: 18px;
+    }
+}
+
+.sectionTwo{
+    background-image: url(./images/Screenshot\ 2024-04-23\ 010432.png);
+    color: white;
+    padding: 40px 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+/* section two card */
+.card{
+    border: 1px solid #000;
+    border-bottom: 4px solid #fa9c2b;
+}
