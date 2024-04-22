@@ -22,32 +22,6 @@
     border-bottom-right-radius: 80px;
 }
 
-
-@media screen and (max-width: 1140px) {
-    .form-flex {
-        flex-direction: column;
-    }
-    .form-flex img{
-        padding-top: 30px;
-    }
-    .background{
-   
-        padding: 20px;
-        height: 640px;
-        box-shadow: 2px 2px 12px rgb(209, 206, 206);
-    }
-    .formBorder{
-        width: 310px;
-        padding:60px 20px;
-     border: 2px solid #fa9c2b;;
-    }
-    .builder{
-        flex-direction: column;
-        align-items: center;
-       gap: 18px;
-    }
-}
-
 .sectionTwo{
     background-image: url(./images/Screenshot\ 2024-04-23\ 010432.png);
     color: white;
@@ -58,5 +32,64 @@
 /* section two card */
 .card{
     border: 1px solid #000;
-    border-bottom: 4px solid #fa9c2b;
+}
+.card:hover{
+    box-shadow: 0px 6px 2px #fa9c2b;    
+}
+/* responsiveness */
+@media screen and (max-width: 1140px) {
+    .form-flex {
+        flex-direction: row-reverse;
+        gap: 10px;
+    }
+    .form-flex img{
+        padding-top: 30px;
+    }
+    .background{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+        padding: 20px;
+        height: 640px;
+        
+    }
+    .formBorder{
+        width: 350px;
+       
+        padding:60px 20px;
+     border: 2px solid #fa9c2b;;
+    }
+    .builder{
+        flex-direction: row;
+        align-items: center;
+       gap: 18px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .form-flex {
+        flex-direction: column-reverse;
+    }
+    .form-flex img{
+        padding-top: 30px;
+    }
+    .background{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+        padding: 20px;
+        height: 640px;
+      
+    }
+    .formBorder{
+        width: 350px;
+       
+        padding:60px 20px;
+     border: 2px solid #fa9c2b;;
+    }
+    .builder{
+        flex-direction: column;
+        align-items: center;
+       gap: 18px;
+    }
 }
